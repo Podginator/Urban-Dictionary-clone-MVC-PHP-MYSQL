@@ -1,0 +1,477 @@
+/* Reset CSS */
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight:200;
+    margin:auto;
+    background: #EEE;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-align:center;
+    font-size:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:100;
+}
+
+nav{
+    text-align:right;
+    height:42px;
+    text-align:center;
+    background:#1D2439;
+    z-index:10;
+    z-index:1000;
+    line-height:40px;
+    font-size:16px;
+    min-width:960px;
+}
+
+nav a{
+    height:40px;
+    border:1px solid #3F4558;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding:0px 24px 0px 24px;
+}
+
+nav a:hover{
+    color:#EFFF00;
+}
+
+
+header{
+    width:100%;
+    text-align:center;
+    height:91px;
+    background:#1D2439;
+}
+
+.header
+{
+    background:#1D2439;
+}
+.boxcontainer
+{
+    width:100%;
+    margin:0px;
+}
+.leftContainer
+{
+    width:960px;
+    margin:auto;
+    clear:both;
+}
+.leftContainer > .posts
+{
+    width:60%;
+    float:left;
+}
+
+.leftContainer > .reply
+{
+    float:left;
+    width:40%;
+    clear:right;
+}
+
+
+.leftContainer > .reply > * > .box
+{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+}
+
+.leftContainer > * > .box
+{
+    width:95%;
+    margin-right:5%;
+    margin-left:0%;
+}
+
+.leftContainer > .reply > .box
+{
+   width:100%;
+}
+
+
+.box.organize a
+{
+    margin-right:5px;
+}
+
+.container
+{
+    width:960px;
+    height:100%;
+    margin:auto;
+}
+
+
+.logo
+{
+    position:relative;
+    height:100%;
+    float:left;
+    line-height: 40px;
+    width:20%;
+}
+
+.logo img
+{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    width:150px;
+}
+
+.search
+{   
+    position:relative;
+    width:60%;
+    float:left;
+    height:100%;
+    font-size:16px;
+}
+
+
+.search input
+{
+    position:absolute;
+    width:75%;
+    height:50px;
+    top:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    border:0px;
+    padding-left:10px;
+    font-size:16px;
+    border-radius:3px;
+}
+
+.search button
+{
+    width:25%;
+    height:52px;
+    font-size:16px;
+    color:white;
+    background:#134FE6;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:5px;
+    border:none;
+    margin:auto;
+}
+
+.search button:hover
+{
+    background: #05FF56;
+}
+
+.buttons
+{
+    position:relative;
+    width:20%;
+    height:100%;
+    float:left;
+}
+
+.circle
+{
+    float:left;
+    width:51px;
+    margin-right:5%;
+    border-radius:50%;
+    height:51px;
+    background:#134fe6;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 30px auto; 
+
+}
+
+.btctner
+{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    border:none;
+    margin:auto;
+    width:auto;
+    width:100%;
+    height:51px;
+}
+
+.circle:first-child
+{
+    margin-left:13px;
+}
+
+.circle:last-child
+{
+    margin-right:0px;
+}
+
+.circle:hover{
+    background:#05FF56;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 30px auto; 
+}
+
+.add
+{
+    background-image: url("../img/add.png");
+}
+
+.shuffle
+{
+    background-image: url("../img/shuffle.png");
+}
+
+.user
+{
+    background-image: url("../img/person.png");
+}
+.add:hover
+{
+    background-image: url("../img/add.png");
+}
+
+.shuffle:hover
+{
+    background-image: url("../img/shuffle.png");
+}
+
+.user:hover
+{
+    background-image: url("../img/person.png");
+}
+
+.box
+{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top:15px;
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    background:white;
+    text-align:center;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.19);
+}
+
+
+.intro
+{
+    margin-left:0%;
+    margin:right:0%;
+    width:100%;
+}
+
+
+.BioForm form
+{
+    margin:auto;
+    text-align:left;
+    width:80%;
+}
+
+.BioForm input[type="text"]
+{
+    width:70%;
+    text-align:left;
+    clear:both;
+}
+
+
+.BioForm input[type="submit"]
+{
+    margin:auto;
+    width:100%;
+    height:30px;
+    font-size:13px;
+    color:white;
+    background:#134FE6;
+    border:none;
+    margin-top:15px;
+}
+
+
+.form form
+{
+    margin:auto;
+    text-align:left;
+    width:80%;
+}
+
+.form label
+{
+    float:left;
+    width:22%;
+    text-align:left;
+    overflow:hidden;
+}
+
+.form input[type="text"]
+{
+    width:70%;
+    text-align:left;
+    clear:both;
+}
+
+.form input[type="password"]
+{
+    width:70%;
+    text-align:left;
+    clear:both;
+}
+
+.form input[type="submit"]
+{
+    margin:auto;
+    width:100%;
+    height:30px;
+    font-size:13px;
+    color:white;
+    background:#134FE6;
+    border:none;
+    margin-top:15px;
+}
+
+.box.user
+{
+    text-align:left;
+    padding-left
+}
+
+.box textarea
+{
+    width:70%;
+    height:120px;
+    float:left;
+}
+
+.boxcontainer
+{
+    width:80%;
+    margin:auto;
+}
+
+.hidden
+{
+    display:none;
+}
+
+.box.user p
+{
+    width:70%;
+    float:left;
+}
+
+.box.user:after
+{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.box.user h2
+{
+    text-align:center;
+}
+
+.editForm
+{
+    float:right;
+}
+
+.box.user label
+{
+    width:20%;
+    float:left;
+        clear:both;
+
+}
+
+.post.box h2
+{
+    font-size:24px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.post.box
+{
+    text-align:left;
+}
+
+.created
+{
+    margin-top:10px;
+    font-size:10px;
+}
+
+
+.responses
+{
+    float:right;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.box.cookie
+{
+    width:100%;
+    text-align:right;
+    margin:0px;
+}
+
+.replycontainer
+{
+    margin-top:15px;
+}
+
+
+
+
+.box a, .box a:visited, .box a:active {
+    color: inherit;
+}
+
+.box a:hover
+{
+    color:#05FF56;
+}
+
+
+.footer
+{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    text-align:center;
+    height:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:#1D2439;
+}
+
+.footer a{
+    color:white;
+    font-size:10px;
+}
